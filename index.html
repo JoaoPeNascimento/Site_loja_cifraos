@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-[#DCCDAE] flex flex-col">
+  <section id="carrinho" class="fixed top-0 right-[-360px] w-[360px] h-screen text-slate-200 bg-[#2c4e33] z-50 duration-200 border-l-2 border-[#DCCDAE]">
+    <div id="topo-carrinho" class="flex justify-between m-2">
+      <p class="text-[#DCCDAE]">Meu Carrinho</p>
+      <button id="fechar-carrinho" class="text-[#DCCDAE] hover:text-[#1a301f]"><i class="fa-solid fa-circle-xmark"></i></button>
+    </div>
+    <section id="produtos-carrinho" class="h-3/5 overflow-y-auto m-2"></section>
+    <p id="preco-total" class="m-2 text-[#DCCDAE]">Total: R$0,00</p>
+    <button id="finalizar-compra" class="bg-[#DCCDAE] m-2 p-1 rounded-lg text-[#2c4e33] hover:bg-[#1a301f] hover:text-[#DCCDAE] shadow-md shadow-green-950">Finalizar</button>
+  </section>
+  <header class="bg-[#2c4e33] flex justify-between items-end sticky top-0 shadow-md shadow-green-950 z-10" id="cabecalho">
+    <img class="h-16 p-2" src="./assets/logo/logo1.jpg" alt="Logo do site">
+    <div class="text-[#DCCDAE]">
+      <button id="abrir-carrinho" class="p-2 hover:text-[#1a301f]"><i class="fa-solid fa-cart-shopping"></i></button>
+      <button class="p-2 mr-2 hover:text-[#1a301f]"><i class="fa-solid fa-user"></i></button>
+    </div>
+  </header>
+  <main>
+    <section id="container-produtos" class="flex flex-wrap justify-center gap-6 p-2"></section>
+  </main>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
