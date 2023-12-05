@@ -43,6 +43,9 @@ export function salvarLocalStorage(chave, informação, quantidadeProduto){
 export function lerLocalStorage(chave){
     return JSON.parse(localStorage.getItem(chave));
 }
+export function apagarDoLocalStorage(chave){
+    localStorage.removeItem(chave);
+}
 
 export function desenharProdutoSimples(idProduto, idContainerHtml, quantidadeProduto){
     const produto = catalogo.find(p => p.id === idProduto);
@@ -74,4 +77,8 @@ export function desenharProdutoSimples(idProduto, idContainerHtml, quantidadePro
   
   elementoArticle.innerHTML = cardProdutoCarrinho;
   containerProdutosCarrinho.appendChild(elementoArticle);
+}
+
+export function voltarHome(){
+    window.location.href = window.location.origin + "/index.html";
 }
