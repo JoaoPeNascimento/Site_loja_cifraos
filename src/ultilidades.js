@@ -58,7 +58,8 @@ export function desenharProdutoSimples(idProduto, idContainerHtml, quantidadePro
         "rounded-lg", 
         "flex", 
         "relative", 
-        "m-2"
+        "m-2",
+        'w-72'
     ];
     for (const articleClasse of articleClasses){
         elementoArticle.classList.add(articleClasse);
