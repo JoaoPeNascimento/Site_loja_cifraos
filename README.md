@@ -1,5 +1,5 @@
 
-# Loja Cifrãos
+# Sobre o projeto "Loja Cifrãos"
 
 O projeto tem como objetivo criar uma plataforma de comércio eletrônico eficiente e atraente para uma loja de vestuário virtual. A proposta visa proporcionar uma experiência de compra online envolvente, facilitando a navegação do usuário e impulsionando as vendas.
 
@@ -14,4 +14,8 @@ O projeto é formado por três principais telas e a funcionalidade de carrinho, 
 
 ![Página de Histórico](https://github.com/JoaoPeNascimento/assets-lojacifraos/blob/main/historico.jpg)
 
+# Tecnologias utilizadas:
 
+•HTML
+•Tailwind CSS
+•Javascript
