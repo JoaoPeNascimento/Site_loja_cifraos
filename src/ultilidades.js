@@ -3,37 +3,37 @@ export const catalogo =  [
         id: "1",
         nome: 'Camisa La ursa',
         preco: 45,
-        img: 'produto-1.jpg',
+        img: 'produto-1',
     },
     {
         id: "2",
         nome: 'Camisa Poison',
         preco: 45,
-        img: 'produto-2.jpg',
+        img: 'produto-2',
     },
     {
         id: "3",
         nome: 'Camisa Cartoon',
         preco: 45,
-        img: 'produto-3.jpg'
+        img: 'produto-3'
     },
     {
         id: "4",
         nome: 'Camisa Mystic',
         preco: 45,
-        img: 'produto-4.jpg',
+        img: 'produto-4',
     },
     {
         id: "5",
         nome: 'Camisa Hunter Hype',
         preco: 45,
-        img: 'produto-5.jpg',
+        img: 'produto-5',
     },
     {
         id: "6",
         nome: 'Camisa Fantasy',
         preco: 45,
-        img: 'produto-6.jpg',
+        img: 'produto-6',
     },
 ];
 
